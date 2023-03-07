@@ -1,2 +1,2 @@
-Test this!
-[Abacus](/docs/gaga.md)
+## Chat bot pages
+[DEV WOD Chatbot Page](/docs/devwodchatbot.md)
