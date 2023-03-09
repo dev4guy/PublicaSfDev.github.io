@@ -1,7 +1,7 @@
 ### DEV/UAT Chat Bot test pages
-* [DEV CDC Chatbot Page](/docs/devcdcchatbot.html)
-* [DEV FOD Chatbot Page](/docs/devfodchatbot.html)
-* [DEV WOD Chatbot Page](/docs/devwodchatbot.html)
+* [CDC DEV Chatbot Page](/docs/devcdcchatbot.html)
+* [FOD DEV Chatbot Page](/docs/devfodchatbot.html)
+* [WOD DEV Chatbot Page](/docs/devwodchatbot.html)
 * [UAT CDC Chatbot Page](/docs/uatcdcchatbot.html)
 
 
