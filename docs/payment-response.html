@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
-<body>
-    <h2>Welcome to GeeksforGeeks</h2>
-    <p>This is the example of <i>location.href</i> way. </p>
- 
-    <button onclick="myFunc()">Click me</button>
+<body onload="redirect()">
+    <p>Github test system relay page. Please wait...</p>
  
     <!--script to redirect to another webpage-->
     <script>
-        function myFunc() {
-            window.location.href = "https://www.geeksforgeeks.org/";
+        function redirect() {
+            var urlstr = (window.location.href).toString();
+            var i = (urlstr.indexOf('?'));
+            var urlRoot = urlstr.slice(0, i + 1);
+            var urlArgs = (i == -1) ? '' : urlstr.substring(i + 1);
+            alert(urlRoot);
+            alert(urlArgs);
+            //window.location.href = "https://www.geeksforgeeks.org/";
         }
     </script>
 </body>
